@@ -21,7 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		96FA4D4226D0FA6A00F32B03 /* TheMovieApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheMovieApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96FA4D4226D0FA6A00F32B03 /* TheMovieAppFaabalia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheMovieAppFaabalia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96FA4D4526D0FA6A00F32B03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96FA4D4726D0FA6A00F32B03 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		96FA4D4E26D0FA6A00F32B03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -58,7 +58,7 @@
 		96FA4D4326D0FA6A00F32B03 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				96FA4D4226D0FA6A00F32B03 /* TheMovieApp.app */,
+				96FA4D4226D0FA6A00F32B03 /* TheMovieAppFaabalia.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -139,9 +139,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		96FA4D4126D0FA6A00F32B03 /* TheMovieApp */ = {
+		96FA4D4126D0FA6A00F32B03 /* TheMovieAppFaabalia */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 96FA4D5626D0FA6A00F32B03 /* Build configuration list for PBXNativeTarget "TheMovieApp" */;
+			buildConfigurationList = 96FA4D5626D0FA6A00F32B03 /* Build configuration list for PBXNativeTarget "TheMovieAppFaabalia" */;
 			buildPhases = (
 				96FA4D3E26D0FA6A00F32B03 /* Sources */,
 				96FA4D3F26D0FA6A00F32B03 /* Frameworks */,
@@ -151,13 +151,13 @@
 			);
 			dependencies = (
 			);
-			name = TheMovieApp;
+			name = TheMovieAppFaabalia;
 			packageProductDependencies = (
 				96FA4D5A26D0FB2300F32B03 /* RxCocoa */,
 				96FA4D5C26D0FB2300F32B03 /* RxSwift */,
 			);
 			productName = TheMovieApp;
-			productReference = 96FA4D4226D0FA6A00F32B03 /* TheMovieApp.app */;
+			productReference = 96FA4D4226D0FA6A00F32B03 /* TheMovieAppFaabalia.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -191,7 +191,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				96FA4D4126D0FA6A00F32B03 /* TheMovieApp */,
+				96FA4D4126D0FA6A00F32B03 /* TheMovieAppFaabalia */,
 			);
 		};
 /* End PBXProject section */
@@ -372,7 +372,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.faabalia.TheMovieApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.faabalia.TheMovieAppFaabalia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -399,7 +399,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.faabalia.TheMovieApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.faabalia.TheMovieAppFaabalia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -419,7 +419,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		96FA4D5626D0FA6A00F32B03 /* Build configuration list for PBXNativeTarget "TheMovieApp" */ = {
+		96FA4D5626D0FA6A00F32B03 /* Build configuration list for PBXNativeTarget "TheMovieAppFaabalia" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				96FA4D5726D0FA6A00F32B03 /* Debug */,

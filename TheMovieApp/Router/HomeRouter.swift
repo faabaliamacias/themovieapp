@@ -23,10 +23,11 @@ class HomeRouter {
     }
     
     func setSourceView(_ sourceView: UIViewController?) {
-        guard let view = sourceView else {
+        guard sourceView != nil else {
             fatalError("Error desconocido")
         }
         
         self.sourceView = sourceView
+        print("Hola home")
     }
 }

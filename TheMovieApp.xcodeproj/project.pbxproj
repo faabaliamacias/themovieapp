@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		96C7685226D212650022F654 /* ManagerConnections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C7685126D212650022F654 /* ManagerConnections.swift */; };
 		96FA4D4626D0FA6A00F32B03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FA4D4526D0FA6A00F32B03 /* AppDelegate.swift */; };
 		96FA4D4826D0FA6A00F32B03 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FA4D4726D0FA6A00F32B03 /* SceneDelegate.swift */; };
 		96FA4D4F26D0FA6A00F32B03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96FA4D4E26D0FA6A00F32B03 /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		96C7685126D212650022F654 /* ManagerConnections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerConnections.swift; sourceTree = "<group>"; };
 		96FA4D4226D0FA6A00F32B03 /* TheMovieAppFaabalia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheMovieAppFaabalia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96FA4D4526D0FA6A00F32B03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96FA4D4726D0FA6A00F32B03 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +49,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		96C7685026D212120022F654 /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				96C7685126D212650022F654 /* ManagerConnections.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
 		96FA4D3926D0FA6A00F32B03 = {
 			isa = PBXGroup;
 			children = (
@@ -72,6 +82,7 @@
 				96FA4D6E26D0FC7500F32B03 /* DetailView */,
 				96FA4D6026D0FBBE00F32B03 /* Router */,
 				96FA4D6B26D0FC3900F32B03 /* Resource */,
+				96C7685026D212120022F654 /* NetworkManager */,
 				96FA4D4E26D0FA6A00F32B03 /* Assets.xcassets */,
 				96FA4D5026D0FA6A00F32B03 /* LaunchScreen.storyboard */,
 				96FA4D5326D0FA6A00F32B03 /* Info.plist */,
@@ -217,6 +228,7 @@
 				96FA4D4626D0FA6A00F32B03 /* AppDelegate.swift in Sources */,
 				96FA4D6426D0FBDB00F32B03 /* HomeView.swift in Sources */,
 				96FA4D5F26D0FBB700F32B03 /* HomeRouter.swift in Sources */,
+				96C7685226D212650022F654 /* ManagerConnections.swift in Sources */,
 				96FA4D6826D0FBF600F32B03 /* HomeViewModel.swift in Sources */,
 				96FA4D4826D0FA6A00F32B03 /* SceneDelegate.swift in Sources */,
 				96FA4D6D26D0FC3900F32B03 /* Constants.swift in Sources */,

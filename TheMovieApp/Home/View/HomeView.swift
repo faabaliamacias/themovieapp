@@ -40,7 +40,7 @@ extension HomeView: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell") as! UITableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell")!
         
         return cell
     }
